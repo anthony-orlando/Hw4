@@ -19,7 +19,7 @@ Partial Class _Default
 
         End If
 
-        lb_results.Text = "Your net pay for this week is, " & String.Format("{0:C}", netPay)
+        lb_results.Text = "Your net pay for this week is " & String.Format("{0:C}", netPay)
         bt_calculate.Enabled = False
     End Sub
 

@@ -16,25 +16,25 @@
     <div>
      <h2>
         <asp:Label ID="lb_hourlyWage" runat="server" Text="Hourly Wage:"></asp:Label>
-        <asp:TextBox ID="tb_hourlyWage" runat="server" Width="100px"></asp:TextBox>
+        <asp:TextBox ID="tb_hourlyWage" runat="server" Width="100px" style="margin-left: 95px"></asp:TextBox>
     </h2>
         <br />
         <br />
      <h2>
         <asp:Label ID="lb_hoursWorked" runat="server" Text="Hours worked:"></asp:Label>
-        <asp:TextBox ID="tb_hoursWorked" runat="server" Width="100px"></asp:TextBox>
+        <asp:TextBox ID="tb_hoursWorked" runat="server" Width="100px" style="margin-left: 87px"></asp:TextBox>
     </h2>
         <br />
         <br />
     <h2>
         <asp:Label ID="lb_preTax" runat="server" Text="Pre-tax Deductions:"></asp:Label>
-        <asp:TextBox ID="tb_preTax" runat="server" Width="100px"></asp:TextBox>
+        <asp:TextBox ID="tb_preTax" runat="server" Width="100px" style="margin-left: 39px"></asp:TextBox>
     </h2>
         &nbsp;<br />
         <br />
     <h2>
         <asp:Label ID="lb_afterTax" runat="server" Text="After tax deductions:"></asp:Label>
-        <asp:TextBox ID="tb_afterTax" runat="server" Width="100px"></asp:TextBox>
+        <asp:TextBox ID="tb_afterTax" runat="server" Width="100px" style="margin-left: 27px"></asp:TextBox>
     </h2>
         <br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -46,8 +46,9 @@
         <br />
         <br />
 &nbsp;
+    <h3>
         <asp:Label ID="lb_results" runat="server"></asp:Label>
-    
+    </h3>
         <br />
     
     </div>
